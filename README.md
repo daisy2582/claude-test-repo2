@@ -1,6 +1,6 @@
-# Ferrero Rocher Official Website Clone
+# Dairy Milk Official Website
 
-A luxury chocolate brand website replicating the Ferrero Rocher official site experience - featuring a visually rich, elegant, gold-themed showcase with product lines, brand storytelling, occasions/gifting, and immersive scroll animations.
+A luxury chocolate brand website for Dairy Milk - featuring a visually rich, elegant, gold-themed showcase with product lines, brand storytelling, occasions/gifting, and immersive scroll animations.
 
 ## Tech Stack
 
