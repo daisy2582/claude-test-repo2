@@ -1,4 +1,4 @@
-/* ===== Dairy Milk - Main JavaScript ===== */
+/* ===== Dubai Kunafa Chocolate - Main JavaScript ===== */
 
 document.addEventListener('DOMContentLoaded', () => {
     initNavbar();
@@ -168,7 +168,7 @@ function initCookieBanner() {
     const banner = document.querySelector('.cookie-banner');
     if (!banner) return;
 
-    const accepted = localStorage.getItem('dairy-milk-cookies-accepted');
+    const accepted = localStorage.getItem('dubai-kunafa-cookies-accepted');
 
     if (!accepted) {
         setTimeout(() => {
@@ -181,14 +181,14 @@ function initCookieBanner() {
 
     if (acceptBtn) {
         acceptBtn.addEventListener('click', () => {
-            localStorage.setItem('dairy-milk-cookies-accepted', 'true');
+            localStorage.setItem('dubai-kunafa-cookies-accepted', 'true');
             banner.classList.remove('show');
         });
     }
 
     if (declineBtn) {
         declineBtn.addEventListener('click', () => {
-            localStorage.setItem('dairy-milk-cookies-accepted', 'declined');
+            localStorage.setItem('dubai-kunafa-cookies-accepted', 'declined');
             banner.classList.remove('show');
         });
     }

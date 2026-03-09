@@ -1,11 +1,11 @@
 version: "3.9"
 
 services:
-  dairy-milk-site:
+  dubai-kunafa-chocolate:
     build:
       context: .
       dockerfile: Dockerfile
-    container_name: dairy-milk-site
+    container_name: dubai-kunafa-chocolate
     ports:
       - "8080:80"
     restart: unless-stopped

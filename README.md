@@ -1,6 +1,6 @@
-# Dairy Milk Official Website
+# Dubai Kunafa Chocolate Official Website
 
-A luxury chocolate brand website for Dairy Milk featuring a visually rich, elegant, gold-themed showcase with product lines, brand storytelling, occasions/gifting, immersive scroll animations, and interactive micro-interactions.
+A luxury chocolate brand website for Dubai Kunafa Chocolate featuring a visually rich, elegant, gold-themed showcase with product lines, brand storytelling, occasions/gifting, immersive scroll animations, and interactive micro-interactions.
 
 ## Tech Stack
 
@@ -47,8 +47,8 @@ Simply open `index.html` in a web browser. No build step required.
 ### Option 2: Docker
 ```bash
 # Build and run with Docker
-docker build -t dairy-milk-site .
-docker run -p 8080:80 dairy-milk-site
+docker build -t dubai-kunafa-chocolate .
+docker run -p 8080:80 dubai-kunafa-chocolate
 ```
 Then visit [http://localhost:8080](http://localhost:8080)
 
@@ -81,7 +81,7 @@ docker compose down
 
 ```
 index.html          - Main homepage
-product.html        - Product detail page (Dairy Milk Classic)
+product.html        - Product detail page (Dubai Kunafa Chocolate Classic)
 css/styles.css      - Custom luxury gold theme + animations
 js/main.js          - All interactions and micro-interactions
 images/             - Placeholder directory for product images
